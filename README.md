@@ -1,2 +1,3 @@
 # random
- core java basics with pattern examples
+core java basics with looping and conditional statements. <br>
+pattern examples.
