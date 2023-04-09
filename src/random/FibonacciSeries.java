@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 public class FibonacciSeries {
     public static void FNS(int count){
-        int sum=0;
+        int sum = 0;
         int n1 = 0;
         int n2 = 1;
         System.out.print(n1+" "+n2);
