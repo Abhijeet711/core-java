@@ -10,7 +10,7 @@ package random;
  *
  * @author Abhi
  */
-public class ArrayExample {
+public class ArrayExample1 {
     public static void main(String[] args) {
         //printing array in a line
         //array of size 5 with all elements as 0.
