@@ -23,5 +23,17 @@ public class ArrayExample3 {
         System.out.println("Maximum element of the array is: "+max);
         System.out.println("\n--EXAMPLE OVER--\n");
         //second largest of an array.
+        int l1, l2;
+        l1 = l2 = arr[0];
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]>l1){
+                l2=l1; 
+                l1=arr[i];
+            }
+            else if(arr[i]>l2){
+                l2=arr[i];
+            }
+        }
+        System.out.println("Second largest element of the array is: "+l2);
     }
 }
