@@ -38,5 +38,15 @@ public class ArrayExample1 {
             System.out.print(i++ + " ");
         }
         System.out.println("\n\n--EXAMPLE OVER--\n");
+        //Creating a 2D array and printing it.
+        int[][] a = {{1,2,3},{4,5,6},{7,8,9}};
+        //here x is array of arrays, so while initializing we have to give [].
+        for(int[] x:a){
+            //now, once we traverse in array a, we have to traverse every array of a, that means x.
+            for(int y:x){
+                System.out.print(y);
+            }
+            System.out.println("");
+        }
     }
 }
