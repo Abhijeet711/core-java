@@ -35,7 +35,6 @@ public class MethodExample {
         }
         System.out.println("\n\n--EXAMPLE OVER--\n");        
         String email = "abhijeet.b@somaiya.edu";
-        System.out.print("Username is: ");
-        username(email);
+        System.out.println("Username is: " + username(email));
     }
 }
