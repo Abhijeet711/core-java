@@ -11,7 +11,7 @@ package random;
  * @author Abhi
  */
 public class MethodExample {
-    //in methods, if an object is passed its value of actual object will be modified, but if the datatype of that object is primitive, the value won't be modified.
+    //in methods, if an object is passed in a method its value of actual object will be modified, but if the datatype of that object is primitive, the value won't be modified.
     static void update(int A[]){
         A[2] = 7;
     }
@@ -20,6 +20,24 @@ public class MethodExample {
         int a = email.indexOf('@');
         String uname = email.substring(0,a);
         return uname;
+    }
+    public static boolean isPrime(int n){
+        for(int i=2;i<n/2;i++){
+            if(n%i==0){
+                return false;
+            }
+        }
+        return true;
+    }
+    public static int GCD(int m, int n){
+        while(m!=n){
+            if(m>n){
+                m=m-n;
+            }else{
+                n=n-m;
+            }
+        }
+        return m;
     }
     public static void main(String[] args) {
         int A[] = {1,2,3,4,5};
@@ -33,8 +51,18 @@ public class MethodExample {
         for(int x:A){
             System.out.print(x + " ");
         }
+        
         System.out.println("\n\n--EXAMPLE OVER--\n");        
+        
         String email = "abhijeet.b@somaiya.edu";
         System.out.println("Username is: " + username(email));
+        
+        System.out.println("\n--EXAMPLE OVER--\n");
+        
+        System.out.println("Is 19 a prime number?: "+isPrime(19));
+        
+        System.out.println("\n--EXAMPLE OVER--\n");
+        
+        System.out.println("GCD of 35 and 56 is: "+GCD(35,56));
     }
 }
