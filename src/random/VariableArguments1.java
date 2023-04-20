@@ -10,7 +10,7 @@ package random;
  *
  * @author Abhi
  */
-public class VariableArguments {
+public class VariableArguments1 {
      //varrags allows the method to accept zero or muliple arguments. can be only one variable argument in the method. varargs must be the last argument. varargs uses ellipsis i.e. three dots after the data type.
     static void show(int...A){
         for(int x:A){
