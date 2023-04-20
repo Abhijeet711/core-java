@@ -10,6 +10,8 @@ package random;
  *
  * @author Abhi
  */
+//multiple methods having same name but different in parameters.
+//two possible ways -> 1. By changing number of arguments, 2. By changing the data type
 public class MethodOverloading {
     //area of a rectangle
     public static double area(double length, double breadth){
