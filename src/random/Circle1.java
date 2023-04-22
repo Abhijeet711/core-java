@@ -32,5 +32,11 @@ public class Circle1 {
         System.out.println("Area is: "+c1.area());
         System.out.println("Perimeter is: "+c1.perimeter());
         System.out.println("Circumference is: "+c1.circumference());
+        System.out.println("\n--EXAMPLE OVER--\n");        
+        Circle c2  = new Circle();
+        c2.radius = 1.87;
+        System.out.println("Area is: "+c2.area());
+        System.out.println("Perimeter is: "+c2.perimeter());
+        System.out.println("Circumference is: "+c2.circumference());
     }
 }
