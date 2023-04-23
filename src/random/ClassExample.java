@@ -79,6 +79,11 @@ class Student{
     public String studDetails(){
         return "Roll No: "+rollno+" Name: "+name+" Course: "+course;
     }
+    
+    //instead of the above code, we can directly use toString() eg.
+    public String toString(){
+        return "Roll No: "+rollno+" Name: "+name+" Course: "+course;
+    }
 }
 
 public class ClassExample {
@@ -90,28 +95,36 @@ public class ClassExample {
         System.out.println("Area of circle1 is: "+c1.area());
         System.out.println("Perimeter of circle1 is: "+c1.perimeter());
         System.out.println("Circumference of circle1 is: "+c1.circumference());
+        
         System.out.println("\n--EXAMPLE OVER--\n");        
+        
         //different object, so different output.
         Circle c2  = new Circle();
         c2.radius = 1.87;
         System.out.println("Area of circle2 is: "+c2.area());
         System.out.println("Perimeter of circle2 is: "+c2.perimeter());
         System.out.println("Circumference of circle2 is: "+c2.circumference());
+        
         System.out.println("\n--EXAMPLE OVER--\n");
+        
         Rectangle r1 = new Rectangle();
         r1.length = 4;
         r1.breadth = 11;
         System.out.println("Area of rectangle is: "+r1.area());
         System.out.println("Perimeter of rectangle is: "+r1.perimeter());
         System.out.println("Is out rectangle a square?: "+r1.isSquare());
+        
         System.out.println("\n--EXAMPLE OVER--\n");
+        
         Cylinder cy1 = new Cylinder();
         cy1.height = 10;
         cy1.radius = 5;
         System.out.println("Lid Area of Cylinder is: "+cy1.lidArea());
         System.out.println("Total Area of Cylinder is: "+cy1.totalSurfaceArea());
         System.out.println("Volume of Cylinder is: "+cy1.volume());
+        
         System.out.println("\n--EXAMPLE OVER--\n");
+        
         Student s1 = new Student();
         s1.rollno = 1;
         s1.name = "cartiace";
@@ -123,5 +136,7 @@ public class ClassExample {
         System.out.println("Total Marks(out of 300): "+s1.total());
         System.out.println("Average: "+s1.average());
         System.out.println("Grade: "+s1.grade());
+        //calling the toString method over here. we only have to use the object because we've used toString()
+        System.out.println("Details --> "+s1);
     }
 }
