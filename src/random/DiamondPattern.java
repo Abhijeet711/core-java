@@ -25,7 +25,7 @@ public class DiamondPattern {
             System.out.println("");
         }
         //lower half rows, if we want only 1 middle line just use 'int i=n-1'
-        for(int i=n;i>=1;i--){
+        for(int i=n-1;i>=1;i--){
             //spaces
             for(int j=1;j<=n-i;j++){
                 System.out.print(" ");
