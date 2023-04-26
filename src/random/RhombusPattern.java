@@ -10,7 +10,7 @@ package random;
  *
  * @author Abhi
  */
-public class Rhombus {
+public class RhombusPattern {
     public static void main(String[] args) {
         int n=5;
         //for rows
