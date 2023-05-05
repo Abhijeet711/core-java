@@ -16,8 +16,9 @@ class TV{
     }
 }
 
+//while overriding the method in subclass, the name of the methods and parameters pass should be same, or else it will become method overloading instead of method overriding.
 class SmartTV extends TV{
-    //overriden the methods of TV class to use in SmartTV class.
+    //overridden the methods of TV class to use in SmartTV class.
     @Override
     public void VolumeUp(){
         System.out.println("Smart TV volume is increased.");
