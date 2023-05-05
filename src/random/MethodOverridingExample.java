@@ -16,7 +16,8 @@ class TV{
     }
 }
 
-//while overriding the method in subclass, the name of the methods and parameters pass should be same, or else it will become method overloading instead of method overriding.
+//while overriding the method in subclass, the name of the methods, return type of the method and parameters pass should be same, or else it will become method overloading instead of method overriding.
+//while performing inheritance, we cannot overload or override any of the methods which are final methods or static methods.
 class SmartTV extends TV{
     //overridden the methods of TV class to use in SmartTV class.
     @Override
