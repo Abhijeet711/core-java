@@ -27,6 +27,7 @@ class Sub extends Super{
     }
 }
 
+//conclusion of dynamic dispatch is, whatever class the object belongs to those methods of that class will be called.
 public class DynamicMethodDispatch {
     public static void main(String[] args) {
         //a super class reference can hold the object of subclass, while a sub class reference cannot hold the object of super class.
