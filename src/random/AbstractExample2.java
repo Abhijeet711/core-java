@@ -9,6 +9,8 @@ package random;
 
 /*
     Abstract Class:
+    - abstract keyword is a non access modifier used for classes and methods.
+    - abstract method doesn't have a body, its body is provided by the subclass.
     - cannot create object of abstract class, but can have a reference of it.
     - if you want a method to be empty, you have to define it as abstract and the class containing the abstract method should be declared as abstract class.
     - you cannot create a class with final and abstract keywords, it will generate a conflict.
