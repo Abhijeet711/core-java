@@ -13,21 +13,25 @@ package oopsbasics;
 //multiple methods having same name but different in parameters.
 //two possible ways -> 1. By changing number of arguments, 2. By changing the data type
 public class MethodOverloading {
-    //area of a rectangle
+    
+//area of a rectangle
     public static double area(double length, double breadth){
         double area = length*breadth;
         return area;
     }
+    
     //area of a circle
     public static double area(double radius){
         double area = Math.PI*radius*radius;
         return area;
     }
+    
     //area of a trapezium
     public static double area(double side1, double side2, double height){
         double area = ((side1+side2)*height)/2;
         return area;
     }
+    
     public static void main(String[] args) {
         System.out.println("Area of a rectangle with length 7 and breadth 11 is: "+area(7,11));
         System.out.println("\n--EXAMPLE OVER--\n");

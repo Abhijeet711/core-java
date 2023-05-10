@@ -10,6 +10,7 @@ package interfaces;
 
 /*
     Interfaces:
+    - java doesn't support multiple inheritance, ie. we cannot extend from multiple classes. hence, we use interfaces. we can implement from multiple interfaces.
     - interfaces are completely used to achieve abstraction and polymorphism, it doesnt has anything for subclass.
     - all methods of an interface are abstract, so you cannot make object of an interface. (cannot be instantiated ie. represented)
     - uses implements keyword for inheritance.

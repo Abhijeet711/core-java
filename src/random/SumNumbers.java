@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package basics;
+package random;
 
 import java.util.Scanner;
 
