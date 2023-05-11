@@ -6,7 +6,7 @@
  * @author Abhi
  */
 
-package oopsbasics;
+package inheritance;
 
 //1) The process by which one class acquires the properties (data members) and functionalities (methods) of another class is called inheritance.
 //2) The aim of inheritance is to provide the re-usability of code so that a class has to write only the unique features and rest of the common properties and functionalities can be extended from the another class.
@@ -16,7 +16,7 @@ package oopsbasics;
 //1) Single Inheritance: Class B extends Class A.
 //2) Multilevel Inheritance: Class C extends Class B. Class B extends Class A.
 //3) Hierarchical Inheritance: Class B, Class C and Class D extends Class A.
-//4) Multiple Inheritance: Class C extends Class A and Class B. This is not supported in Java.
+//4) Multiple Inheritance: Class C extends Class A and Class B. Multiple Class extension is not supported in Java. It can be achieved using Interfaces.
 
 //superclass - rectt
 class rectt{
