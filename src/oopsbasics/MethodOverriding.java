@@ -35,7 +35,7 @@ class SmartTV extends TV{
     }
 }
 
-public class MethodOverridingExample {
+public class MethodOverriding {
     public static void main(String[] args) {
         TV tv = new TV();
         tv.VolumeUp();
