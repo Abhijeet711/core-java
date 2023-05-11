@@ -20,7 +20,7 @@ class Outer3{
 public class NestedInner3 {
     public static void main(String[] args) {
         
-    //CREATING OBJECT OF INNER CLASS DIRECTLY INSIDE THE MAIN CLASS: to create a object of inner class, we have to first use reference of outerclass then innerclass and create object of outer class then inner class.                             eg, outerClass.innerClass OI = new ObjOuter().new ObjInner();
+    //CREATING OBJECT OF NESTED NON STATIC INNER CLASS DIRECTLY INSIDE THE MAIN CLASS: to create a object of inner class, we have to first use reference of outerclass then innerclass and create object of outer class then inner class.                             eg, outerClass.innerClass OI = new ObjOuter().new ObjInner();
         
         Outer3.Inner3 oi3 = new Outer3().new Inner3();
         //this will give the output of inner display
