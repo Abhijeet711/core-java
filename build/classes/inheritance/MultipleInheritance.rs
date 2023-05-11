@@ -1,0 +1,4 @@
+inheritance.Circlee
+inheritance.MultipleInheritance
+inheritance.Moveable
+inheritance.Drawable

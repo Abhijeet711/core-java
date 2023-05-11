@@ -1,0 +1,4 @@
+inheritance.HierarchicalInheritance
+inheritance.Shape
+inheritance.Square
+inheritance.Circle

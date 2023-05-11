@@ -1,0 +1,5 @@
+interfaces.InterfacesExample2
+interfaces.phone
+interfaces.SmartPhone
+interfaces.musicplayer
+interfaces.camera

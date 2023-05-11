@@ -1,0 +1,3 @@
+inheritance.Vehicle
+inheritance.Car
+inheritance.SingleInheritance

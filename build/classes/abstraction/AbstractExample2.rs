@@ -1,0 +1,4 @@
+abstraction.shape
+abstraction.AbstractExample2
+abstraction.circle
+abstraction.rect
