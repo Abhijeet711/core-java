@@ -1,5 +1,0 @@
-oopsbasics.Cylinder
-oopsbasics.Student
-oopsbasics.Rectangle
-oopsbasics.ClassExample
-oopsbasics.Circle
