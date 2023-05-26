@@ -33,6 +33,10 @@ class SmartTV extends TV{
     public void Youtube(){
         System.out.println("Smart TV browsing youtube.");
     }
+    public void SuperTest(){
+        //we user super keyword to access the method of super class.
+        super.VolumeDown();
+    }
 }
 
 public class MethodOverriding {
@@ -42,5 +46,6 @@ public class MethodOverriding {
         SmartTV t = new SmartTV();
         t.Youtube();
         t.VolumeDown();
+        t.SuperTest();
     }
 }
