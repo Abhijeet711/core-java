@@ -35,7 +35,7 @@ public class ArrayExample1 {
         System.out.println("Printing an array using for reach loop:");
         int arr1[] = {1,2,3,4,5};
         for(int i:arr1){
-            System.out.print(i++ + " ");
+            System.out.print(i + " ");
         }
         System.out.println("\n\n--EXAMPLE OVER--\n");
         //Creating a 2D array and printing it.
