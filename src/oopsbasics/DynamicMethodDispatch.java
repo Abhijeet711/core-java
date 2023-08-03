@@ -31,7 +31,7 @@ class Sub extends Super{
 public class DynamicMethodDispatch {
     public static void main(String[] args) {
         //a super class reference can hold the object of subclass, while a sub class reference cannot hold the object of super class.
-        Super S = new Sub(); //this will have all the methods of super class and the methods of subclass that are overriden in the subclass.
+        Super S = new Sub(); //this will have all the methods of super class and the methods of subclass that are overridden in the subclass.
         S.method1(); //output of super class
         S.method2(); //output of method2 of sub class
         //S.method3(); //error, since there is no method named method3 in super class and we are using the reference of super class, hence this will give error.
