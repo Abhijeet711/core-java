@@ -31,8 +31,8 @@ public class ConstructorOverloading {
     void display(){System.out.println(id+" "+name+" "+age);}  
    
     public static void main(String args[]){  
-    ConstructorOverloading student1 = new ConstructorOverloading(111,"Abhi");  
-    ConstructorOverloading student2 = new ConstructorOverloading(222,"carti",25);  
+    ConstructorOverloading student1 = new ConstructorOverloading(111,"Abhi"); //can use two args or three agrs constructor 
+    ConstructorOverloading student2 = new ConstructorOverloading(222,"carti",25);  //can only use three args constructor
     student1.display();  
     student2.display();  
    }  
