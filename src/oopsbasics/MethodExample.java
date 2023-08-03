@@ -15,7 +15,7 @@ public class MethodExample {
     static void update(int A[]){
         A[2] = 7;
     }
-    //return type of a method. (String return type not working, still trying to fix. the code works with void return type.)
+    //return type of a method.
     public static String username(String email){
         int a = email.indexOf('@');
         String uname = email.substring(0,a);

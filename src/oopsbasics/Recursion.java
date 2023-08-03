@@ -10,7 +10,7 @@ package oopsbasics;
  *
  * @author Abhi
  */
-//rocess in which a method calls itself continuously. method that calls itself is called as recursive method.
+//process in which a method calls itself continuously. method that calls itself is called as recursive method.
 public class Recursion {
     static int factorial(int n) {
         if(n==1) {

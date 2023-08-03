@@ -44,7 +44,7 @@ public class MethodOverloading {
         System.out.println("\n--EXAMPLE OVER--\n");
         System.out.println("Area of a circle with radius 10 is: "+area(10)); //using the method which has int return type. (line number 30)
         System.out.println("\n--EXAMPLE OVER--\n");
-        System.out.println("Area of a circle with radius 10 is: "+area(10.673)); //using the method which has float return type.(line number 24)
+        System.out.println("Area of a circle with radius 10.673 is: "+area(10.673)); //using the method which has float return type.(line number 24)
         System.out.println("\n--EXAMPLE OVER--\n");
         System.out.println("Area of trapezium is: "+area(8,3,5));
     }

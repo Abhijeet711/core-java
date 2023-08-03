@@ -17,7 +17,7 @@ public class ArrayExample5 {
         int[] a={54,36,97,18,20};
         System.out.print("Default array is: ");
         for(int p:a){
-            System.out.print(p);
+            System.out.print(p+" ");
         }
         System.out.println("\n\n--EXAMPLE OVER--\n");
         //initializing second array of same length.
