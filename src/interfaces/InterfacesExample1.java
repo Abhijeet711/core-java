@@ -23,6 +23,8 @@ package interfaces;
 */
 
 interface Animal{
+    //constant
+    static final float PI = 3.14f;
     void eat();
     void sleep();
 }
@@ -70,6 +72,7 @@ public class InterfacesExample1 {
         Animal dog = new Dog();
         dog.eat();
         dog.sleep();
+        System.out.println("Constant Value: "+dog.PI);
         
         System.out.println("\n--EXAMPLE OVER--\n");
         

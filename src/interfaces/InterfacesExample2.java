@@ -50,7 +50,7 @@ class SmartPhone extends phone implements camera, musicplayer{
     
     //concrete method of SmartPhone class.
     public void videocall(){
-        System.out.println("Smartphone is using for videocall.");
+        System.out.println("Smartphone in use for videocall.");
     }
 }
 

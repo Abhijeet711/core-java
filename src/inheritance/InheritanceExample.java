@@ -48,13 +48,15 @@ class cuboid extends rectt{
     }
     public float height;
     public float volume(){
+        //since volume is l*b*h
         return area()*height;
     }
     public float surfaceArea(){
         return 2*(length*breadth+breadth*height+height*length);
     }
     public boolean isCube(){
-        if(length==breadth && breadth==height && length==height){
+        //isSquare() can also be written as length==breadth
+        if(isSquare() && breadth==height && length==height){
             return true;
         }else{
             return false;
