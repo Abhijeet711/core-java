@@ -10,6 +10,9 @@ package strings;
 
 public class StringMethods {
     public static void main(String[] args) {
+        char c[] = {'a','b','c'};
+        String s = new String(c);
+        System.out.println(s);
         String s1 = "top";
         String s2 = "gun";
         String s3 = "TOP";

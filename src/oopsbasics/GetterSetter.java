@@ -39,7 +39,7 @@ public class GetterSetter {
         //g.name = "abhi"; this will give following error: Uncompilable source code - name has private access in random.GSE at random.GetterSetter.main
         g.setName("carti");
         g.setSalary(100000);
-        System.out.println("Details -> "+g);
+        System.out.println("Details -> "+g.toString());
         GSE s = new GSE();
         s.setName("ace");
         s.setSalary(80000);

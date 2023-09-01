@@ -1,2 +1,0 @@
-oopsbasics.GetterSetter
-oopsbasics.GSE

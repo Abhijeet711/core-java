@@ -9,9 +9,9 @@ package oopsbasics;
 
 public class LazySingleton {
     private static LazySingleton instance;
-    private LazySingleton() {
-    }
-    public static synchronized LazySingleton getInstance() {
+    // private constructor
+    private LazySingleton() {}
+    public static LazySingleton getInstance() {
         if (instance == null) {
             instance = new LazySingleton();
         }
