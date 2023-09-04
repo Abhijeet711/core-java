@@ -16,7 +16,7 @@ public class ArrayExample1 {
         //array of size 5 with all elements as 0.
         int[] arr = new int[5];
         for(int i=0;i<arr.length;i++){
-            System.out.print(arr[i]);
+            System.out.print(arr[i] + " ");
         }
         System.out.println("\n--EXAMPLE OVER--\n");
         int[] arr0 = {1,2,3,4,5};

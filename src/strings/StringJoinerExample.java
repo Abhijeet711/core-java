@@ -41,6 +41,7 @@ public class StringJoinerExample {
  
         StringJoiner sj2 = new StringJoiner(":");
         sj2.add(al.get(2)).add(al.get(3));
+        System.out.println(sj2);
  
         // Using merge() method
         sj1.merge(sj2);
