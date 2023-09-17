@@ -1,8 +1,3 @@
 innerclasses.Outer2$Inner2
-innerclasses.Outer1$Inner1
 innerclasses.Outer2
-innerclasses.Outer1
-innerclasses.Outer
-innerclasses.Outer$Inner
 innerclasses.NestedInner2
-innerclasses.NestedInner1

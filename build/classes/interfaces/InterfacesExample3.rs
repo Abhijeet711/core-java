@@ -1,7 +1,4 @@
 interfaces.Customer
 interfaces.Store
-interfaces.store
 interfaces.InterfacesExample3
-interfaces.members
-interfaces.customer
 interfaces.Member
