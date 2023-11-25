@@ -75,9 +75,9 @@ public class MatrixOperations {
         int[][]D={{1,0,0},{0,1,0},{0,0,1}};
         //for output of multiplication.
         int[][]E=new int[3][3];
-        for(int i=0;i<A.length;i++){
-            for(int j=0;j<A[0].length;j++){
-                for(int k=0;k<A[0].length;k++){
+        for(int i=0;i<A.length;i++){ //rows
+            for(int j=0;j<A[0].length;j++){ //columns of matrix A
+                for(int k=0;k<D[0].length;k++){ //columns of matrix D
                     E[i][j]=E[i][j]+A[i][k]*D[k][j];
                 }
             }

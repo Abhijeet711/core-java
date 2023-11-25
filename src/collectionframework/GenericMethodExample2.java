@@ -36,7 +36,7 @@ public class GenericMethodExample2 {
         
         System.out.println("\n--EXAMPLE OVER--\n");
         
-        //this is getting retunred by the else statement. if output input type is not Integer aur Double then it will return as it is.
+        //this is getting returned by the else statement. if input type of output is not Integer and Double then it will return as it is.
         String strResult = action("cartiace");
         System.out.println("Result (String): " + strResult);
     }

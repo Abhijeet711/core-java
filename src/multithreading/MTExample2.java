@@ -19,5 +19,8 @@ public class MTExample2{
         mt2.run();
         // if we use the run() method of both the objects, first it will print output of first object and then it will print output of second object.
         //as you can see from the output, we are not getting the count 1 to 5 simultaneously.
+//        System.out.println("\n--EXAMPLE OVER--\n");
+//        mt1.start();
+//        mt2.start();
     }
 }

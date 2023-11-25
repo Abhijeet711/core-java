@@ -1,2 +1,0 @@
-arrays.Subject
-arrays.ArrayObjClass
